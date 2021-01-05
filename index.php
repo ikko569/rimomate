@@ -39,6 +39,7 @@
 <div class="center" ><img src="images/logo2.png" alt="test class="img-right"></div>
 <pre>
 <?php
+    //変更点
 try {//PDOでデータベースにアクセス引数はデータベース名,ユーザー名,パスワード
     $db = new PDO('mysql:dbname=mydb;host=127.0.0.1;charset=utf8', 'root', 'root');
 
